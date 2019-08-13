@@ -1,14 +1,17 @@
 <?xml version="1.0"?>
 <package>
     <name>BoiledEgg_Minify</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
-    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <license>OSL</license>
     <channel>community</channel>
     <extends/>
     <summary>Minify JavaScript and CSS</summary>
     <description>Minify combined JavaScript and CSS files</description>
-    <notes>version 1.0.0:&#xD;
+    <notes>version 1.0.1:&#xD;
+Updated max php version in the package&#xD;
+&#xD;
+version 1.0.0:&#xD;
 Minor bugfixes and first stable version&#xD;
 &#xD;
 version 0.1.0:&#xD;
@@ -17,10 +20,10 @@ Implemented CSS and JS Minifiers&#xD;
 * CSSMin by Tubal Martin&#xD;
 * JSMin By Douglas Crockford, modified by Steve Clay and Ryan Grove&#xD;
 * JSMinPlus by Tino Zijdel</notes>
-    <authors><author><name>Anton Evers</name><user>ajpevers</user><email>ajpevers@gmail.com</email></author></authors>
-    <date>2013-07-23</date>
-    <time>11:51:12</time>
-    <contents><target name="magecommunity"><dir name="BoiledEgg"><dir name="Minify"><dir name="etc"><file name="config.xml" hash="3722ae576ebf25f1551cef23acb4678c"/><file name="system.xml" hash="0725f69742e3c1dde5390be14a75de4e"/></dir><dir name="Helper"><file name="Data.php" hash="8bd0ad78799b498396f8f2b3bb9825dc"/></dir><dir name="Model"><file name="CSSMin.php" hash="0f91ef3e4f1d734a0f9cfb32f2e158de"/><dir name="JSMin"><file name="UnterminatedCommentException.php" hash="311f6c5cc70e83b7dde62e81783b9d76"/><file name="UnterminatedRegExpException.php" hash="4cda47c9d7ceaeb8bc98cce33ec70567"/><file name="UnterminatedStringException.php" hash="3b4dc92fbe79c6e5994e5369d910bc9a"/></dir><file name="JSMin.php" hash="42438ccded9e70a5e1baa95e93309b86"/><dir name="JSMinPlus"><file name="JSToken.php" hash="94f5c487e6d3ea6c8eaeb172e26bae5b"/></dir><file name="JSMinPlus.php" hash="720fbad1b4e09de5a5e0aa8e0596e1df"/><dir name="Source"><file name="JSMinOptions.php" hash="b63641ec5ed39d1545a38b844792286b"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="BoiledEgg_Minify.xml" hash="db2bac6a6303c6441d04ab6d1223e1f6"/></dir></target><target name="magelocale"><dir name="de_DE"><file name="BoiledEgg_Minify.csv" hash="236bed35b94ef397ae50ef97f2083272"/></dir><dir name="en_US"><file name="BoiledEgg_Minify.csv" hash="c30fdd1cd02781c0c3c4b77c13e07f22"/></dir><dir name="es_ES"><file name="BoiledEgg_Minify.csv" hash="e6673b77ab2fa1545942ce81316d52c7"/></dir><dir name="fr_FR"><file name="BoiledEgg_Minify.csv" hash="8e7ab235433151694460ed8277dca3fc"/></dir><dir name="nl_NL"><file name="BoiledEgg_Minify.csv" hash="1c0fd701dca241f698346b006ef75e13"/></dir><dir name="pt_BR"><file name="BoiledEgg_Minify.csv" hash="7c2f220fd473db66b5372bddfa08b54f"/></dir><dir name="zh_CN"><file name="BoiledEgg_Minify.csv" hash="925157029932f27767648a23ee6d6566"/></dir></target></contents>
+    <authors><author><name>Anton Evers</name><user>AntonEvers</user><email>ajpevers@gmail.com</email></author></authors>
+    <date>2014-04-28</date>
+    <time>16:25:08</time>
+    <contents><target name="magecommunity"><dir name="BoiledEgg"><dir name="Minify"><dir name="Helper"><file name="Data.php" hash="8bd0ad78799b498396f8f2b3bb9825dc"/></dir><dir name="Model"><file name="CSSMin.php" hash="0f91ef3e4f1d734a0f9cfb32f2e158de"/><dir name="JSMin"><file name="UnterminatedCommentException.php" hash="311f6c5cc70e83b7dde62e81783b9d76"/><file name="UnterminatedRegExpException.php" hash="4cda47c9d7ceaeb8bc98cce33ec70567"/><file name="UnterminatedStringException.php" hash="3b4dc92fbe79c6e5994e5369d910bc9a"/></dir><file name="JSMin.php" hash="42438ccded9e70a5e1baa95e93309b86"/><dir name="JSMinPlus"><file name="JSToken.php" hash="94f5c487e6d3ea6c8eaeb172e26bae5b"/></dir><file name="JSMinPlus.php" hash="720fbad1b4e09de5a5e0aa8e0596e1df"/><dir name="Source"><file name="JSMinOptions.php" hash="b63641ec5ed39d1545a38b844792286b"/></dir></dir><dir name="etc"><file name="config.xml" hash="95fa79cbf9dd4fe10f9f609cacdb7b24"/><file name="system.xml" hash="0725f69742e3c1dde5390be14a75de4e"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="BoiledEgg_Minify.xml" hash="db2bac6a6303c6441d04ab6d1223e1f6"/></dir></target><target name="magelocale"><dir><dir name="de_DE"><file name="BoiledEgg_Minify.csv" hash="236bed35b94ef397ae50ef97f2083272"/></dir><dir name="en_US"><file name="BoiledEgg_Minify.csv" hash="c30fdd1cd02781c0c3c4b77c13e07f22"/></dir><dir name="es_ES"><file name="BoiledEgg_Minify.csv" hash="e6673b77ab2fa1545942ce81316d52c7"/></dir><dir name="fr_FR"><file name="BoiledEgg_Minify.csv" hash="8e7ab235433151694460ed8277dca3fc"/></dir><dir name="nl_NL"><file name="BoiledEgg_Minify.csv" hash="1c0fd701dca241f698346b006ef75e13"/></dir><dir name="pt_BR"><file name="BoiledEgg_Minify.csv" hash="7c2f220fd473db66b5372bddfa08b54f"/></dir><dir name="zh_CN"><file name="BoiledEgg_Minify.csv" hash="925157029932f27767648a23ee6d6566"/></dir></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.2.13</min><max>5.4.14</max></php></required></dependencies>
+    <dependencies><required><php><min>5.2.0</min><max>5.5.0</max></php></required></dependencies>
 </package>
