@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/BoiledEgg_Minify",
+    "name": "OpenMageModuleFostering\/BoiledEgg_Minify",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "Minify JavaScript and CSS",
     "authors": [
-    {
-        "name": "Anton Evers",
-        "email": "ajpevers@gmail.com"
-    }
-],
+        {
+            "name": "Anton Evers",
+            "email": "ajpevers@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
